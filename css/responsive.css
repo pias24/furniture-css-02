@@ -1,0 +1,78 @@
+@media (max-width: 575.98px) { 
+    /* =============menu part start============= */
+   .menu_logo img{
+        width: 125px;
+   }
+   .navbar-toggler:focus {
+	box-shadow:none;
+}
+.main_menu{
+    background: lightgreen;
+}
+    /* =============menu part end============= */
+
+    /* =================banner part============= */
+.bannercard .banner_main_card {
+        width: 300px;
+        border-radius: 10px;
+        padding: 20px 20px 20px 20px;
+        background: #71ee97;
+    }
+    .banner_main_card h1 {
+        width: 339px;
+        font-size: 23px;
+    }
+    .banner_main_card p {
+        width: 259px;
+        font-size: 16px;
+    }
+    .banner_main_card a {
+        width: 110px;
+        line-height: 48px;
+    }
+    #banner {
+        padding-top: 86px;
+        padding-bottom: 74px;
+    }
+    /* =================banner part end============= */
+
+ }
+
+ @media (min-width:576px) and (max-width: 767.98px) {
+    .menu_logo img{
+        width: 200px;
+    }
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+    .main_menu{
+        background: rgb(181, 212, 241);
+    }
+        /* =============menu part end============= */
+    
+        /* =================banner part============= */
+    .bannercard .banner_main_card {
+            width: 385px;
+            border-radius: 10px;
+            padding: 25px 205px 25px 25px;
+            background:rgb(181, 212, 241);
+        }
+        .banner_main_card h1 {
+            width: 360px;
+            font-size: 27px;
+        }
+        .banner_main_card p {
+            width: 280px;
+            font-size: 18px;
+        }
+        .banner_main_card a {
+            width: 120px;
+            line-height: 55px;
+        }
+        #banner {
+            padding-top: 95px;
+            padding-bottom: 80px;
+        }
+        /* =================banner part end============= */
+    
+ }

@@ -1,0 +1,384 @@
+/* ============fonts link============ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* ============fonts link end============ */
+
+/* ============commom css============ */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+:root{
+    --Montserrat_font:"Montserrat", sans-serif !important;
+}
+.common_head h2{
+    font-size: 32px;
+    font-weight:700;
+    font-family: var(--Montserrat_font);
+    color: #333333;
+    text-align: center;
+}
+.common_head p{
+    font-size:20px;
+    font-weight:400;
+    font-family: var(--Montserrat_font);
+    color: #666666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ============commom css============ */
+
+/* ============nav part css start============ */
+.main_menu{
+    padding-top: 43px;
+    padding-bottom: ;
+    background: #fff;
+}
+.main_menu ul{
+    gap:73px
+}
+.main_menu ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--Montserrat_font);
+    color: #333333 !important;
+
+}
+/* ============nav part css and============ */
+
+/* ============banner css start============ */
+#banner{
+    padding-top:155px;
+    padding-bottom:151px;
+    background: url(../images/banner_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannercard{
+    display: flex;
+    justify-content: end;
+}
+.bannercard .banner_main_card{
+    width: 643px;
+    border-radius: 10px;
+    padding:37px 58px 41px 39px ;
+    background: #DFE9F4;
+}
+.banner_main_card h2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Montserrat_font);
+    color: #333333 !important;
+    letter-spacing: 3px;
+}
+.banner_main_card h1{
+    width:421px;
+    font-size:52px;
+    font-weight: 700;
+    font-family: var(--Montserrat_font);
+    color: #054C73 !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_main_card p{
+    width:546px;
+    font-size:18px;
+    font-weight:500;
+    font-family: var(--Montserrat_font);
+    color: #333333 !important;
+    margin-bottom: 23px;
+}
+.banner_main_card a{
+    width: 229px;
+    line-height: 70px;
+    text-align: center;
+    /* padding-top:25px 72px; */
+    background: #054C73 !important;
+    border-radius: 50px;
+    font-weight: var(--Montserrat_font);
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.banner_main_card a:active{
+    transform: scale(1.1);
+}
+/* ============banner css end============ */
+
+/* ============support part css start======== */
+#main_support{
+    padding-top: 46px;
+    padding-bottom: 49px;
+    background: #F2F5FF;
+}
+.second_main_support{
+    display: flex;
+    justify-content: space-between;
+}
+.support{
+    display: flex;
+    gap:27px;
+}
+.support .support_text h2{
+     font-size: 24px;
+     font-weight:500;
+     font-family: var(--Montserrat_font);
+     color: #333333;
+}
+.support .support_text p{
+    font-size: 16px;
+    font-weight:400;
+    font-family: var(--Montserrat_font);
+    color: #333333;
+    margin-top: 6px;
+}
+/* ============support part css end======== */
+
+/* ============collection part start======== */
+#collection{
+    padding-top: 60px;
+    padding-bottom: 62px;
+    background: #E5E5E5;
+
+}
+#collection .collection_img{
+    margin-top: 94px;
+    transition: all linear 0.3s;
+}
+#collection .collection_img:hover{
+    margin-top: 19px;
+}
+#collection .collection_img img{
+    width: 355px;
+}
+
+/* ============collection part end======== */
+
+/* ============beauty part start======== */
+#beauty{
+    padding-top:55px;
+    padding-bottom: 65px;
+    background: #F2F5FF !important;
+}
+.beauty_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beauty_text h2{
+    width: 394px;
+    font-size: 32px;
+    font-weight:700;
+    font-family: var(--Montserrat_font);
+    color: #333333;
+    margin-bottom: 20px;
+}
+.beauty_text p{
+    width: 489px;
+    font-size:20px;
+    font-weight:400;
+    font-family: var(--Montserrat_font);
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.beauty_text a{
+    width: 228px;
+    line-height: 68px;
+    text-align: center;
+    background: #054C73 !important;
+    border-radius: 50px;
+    font-weight: var(--Montserrat_font);
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.beauty_text a:active{
+    transform: scale(1.1);
+}
+/* ============beauty part end======== */
+
+/* ============browse rang part start======== */
+#browse_rang{
+    padding-top: 55px;
+    padding-bottom: 155px;
+    background: #E5E5E5;
+}
+.rang_part{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 121px;
+}
+.rang img{
+    width: 351px;
+    height: 400px;
+}
+#browse_rang .rang .rang_button{
+    text-align: center;
+}
+#browse_rang .rang .rang_button a{
+    font-family: var(--Montserrat_font);
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333 !important;
+    margin-top: 30px;
+  
+}
+/* .................................. */
+.single_row{
+    display: flex;
+    justify-content: center;
+}
+.card_image{
+    padding-top: 59px;
+    position: relative;
+}
+.card_image img{
+    width: 355px;
+    height: 400;
+}
+.card_image span{
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight:700;
+    font-family: var(--Montserrat_font);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translate(-50%);
+    outline: 15px solid #FFFFFF;
+}
+.single_card_work h2{
+    font-size: 24px;
+    font-weight:700;
+    font-family: var(--Montserrat_font);
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 75px;
+}
+.single_card_work p{
+    width:381px;
+    font-size: 18px;
+    font-weight:400;
+    font-family: var(--Montserrat_font);
+    color: #666666;
+    letter-spacing: 28;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* ============browse rang part end======== */
+
+/* =============mail start======== */
+#main_mail{
+    padding-top: 59px;
+    padding-bottom: 61px;
+    background: #F2F5FF;
+}
+.mail_text h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat_font);
+    color: #333333;
+    text-align: center;
+}
+.mail_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat_font);
+    color: #666666;
+    width: 514px;
+    margin-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* 
+.................................. */
+.mail_input{
+    width: 486px;
+    height: 70px;
+    border: 1px solid #054C73;
+    margin: 20px auto 0;
+    border-radius: 3px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding-left: 21px;
+    font-family: var(--Montserrat_font);
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+.mail_input input{
+    width: 300px;
+    border: none;
+}
+.mail_input button{
+    width: 153px;
+    height: 70px;
+    background: #054C73;
+    border-radius: 3px;
+    font-family: var(--Montserrat_font);
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 1px solid #011C42;
+}
+/* ============mail part end======== */
+
+/* ============Footer part start======== */
+#main_footer{
+    padding-top: 49px;
+    padding-bottom: 89px;
+    background: #03344F;
+}
+.footer_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat_font);
+    color: #FFFFFF;
+}
+.footer_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat_font);
+    color: #FFFFFF;
+    line-height: 35px;
+    margin-top: 35px;
+    margin-bottom: 21px;
+}
+.footer_left_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat_font);
+    color: #FFFFFF;
+    margin-bottom:34px;
+}
+.footer_image{
+    display: flex;
+    gap: 21px;
+}
+
+/* ============Footer part end======== */
